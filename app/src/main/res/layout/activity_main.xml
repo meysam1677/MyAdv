@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="toranjit.ir.myadv.MainActivity">
+
+
+    <TextView
+        android:id="@+id/t"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="فعال شد"
+        android:fontFamily="@font/bmifont_1"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/i"
+        android:textColor="#ff5900"
+        />
+
+
+    <ImageView
+        android:id="@+id/i"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:scaleType="fitXY"
+        android:adjustViewBounds="true"
+        android:layout_marginBottom="8dp"
+        android:src="@drawable/check"
+        android:layout_centerInParent="true"
+
+        />
+
+</RelativeLayout>
